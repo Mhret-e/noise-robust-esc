@@ -1,0 +1,47 @@
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & datasets (download separately, don't commit)
+data/
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Model checkpoints / weights (often too large for git)
+*.pth
+*.pt
+*.h5
+*.ckpt
+checkpoints/
+saved_models/
+
+# Logs
+*.log
+runs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
